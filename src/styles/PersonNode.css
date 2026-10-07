@@ -1,0 +1,52 @@
+.person-node {
+  width: 220px;
+  background: white;
+  border: 2px solid;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+
+.person-node--woman {
+  border-color: #d88bb0;
+}
+
+.person-node--man {
+  border-color: #7da9d8;
+}
+
+.person-node__header {
+  height: 70px;
+  padding: 12px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.person-node__header--woman {
+  background: #f8e5ef;
+}
+
+.person-node__header--man {
+  background: #e5f0fa;
+}
+
+.person-node__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.person-node__gender {
+  margin-top: 4px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.person-node__details {
+  padding: 12px 15px;
+  font-size: 14px;
+}
+
+.person-node__death {
+  margin-top: 5px;
+}
